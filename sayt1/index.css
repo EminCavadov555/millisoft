@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+}
+.burger{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    top: 40px;
+    right: 40px;
+    position: fixed;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(52, 58, 64, 0.5);
+    transition: .5s
+    ;
+}
+.burger:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.665);
+}
+
+.section1 h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 80px;
+
+}
+
+.section1 h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.sec {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.section1 button {
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    background-color: #1D809F;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b617b;
+}
+
+.section2 {
+    margin-bottom: 90px;
+    margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 h2 {
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section2 p {
+    margin-top: 15px;
+    width: 900px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.474);
+}
+
+.section2 a {
+    color: rgba(0, 0, 0, 0.474);
+
+}
+
+.section2 button {
+    margin-top: 50px;
+    font-size: 15px;
+    color: white;
+    padding: 25px 35px;
+    border: none;
+    background-color: black;
+    border-radius: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.706);
+}
+
+.section3 {
+    background-color: #1D809F;
+}
+
+.text {
+    text-align: center;
+    padding-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text h3 {
+    color: orange;
+    font-size: 13px;
+}
+
+.text h2 {
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 350px;
+}
+
+.icon h4 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icon p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.558);
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+.blank {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 730px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+}
+
+.sectext4 {
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sectext4 button {
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 55px;
+    background-color: #1D809F;
+    color: white;
+    transition: 0.5s;
+}
+
+.sectext4 button:hover {
+    cursor: pointer;
+    background-color: #0b617b;
+
+}
+
+.section5 {
+    width: 100%;
+    height: 1119px;
+}
+
+.sectext5 {
+    text-align: center;
+    padding-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sectext5 h3 {
+    color: orange;
+    font-size: 13px;
+}
+
+.sectext5 h2 {
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 50%;
+    height: 408px !important;
+    position: relative;
+    clip-path: inset(0);
+    transition: .3s;
+}
+
+.imgbck {
+    position: absolute;
+    background-color: none;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.imgbck:hover {
+    background-color: #1D809F;
+}
+
+.imgbck h2 {
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 19rem;
+    margin-left: 3rem;
+}
+
+.imgbck p {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    margin-left: 3rem;
+    padding-top: 1rem;
+    width: 400px;
+}
+
+.img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.img:hover {
+    clip-path: inset(4%);
+}
+
+.section6 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #1D809F;
+}
+
+.sec6btn {
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.sec6btn button {
+    border: none;
+    padding: 15px 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+button:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: rgba(255, 255, 255, 0.543);
+    cursor: pointer;
+    border: none;
+}
+
+button:nth-child(2):hover {
+    background-color: rgba(0, 0, 0, 0.457);
+    cursor: pointer;
+    border: none;
+}
+
+.section7 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec7imp {
+    display: flex;
+    width: 240px;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.secimp {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    background-color: #1D809F;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.secimp:hover {
+    cursor: pointer;
+    background-color: #0b617b;
+}
+.secfinish{
+  padding-top: 45px;  
+  font-size: 14px;
+  line-height: 10px;
+}
